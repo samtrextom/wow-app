@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Database IT</title>
+    
+    <!--Ajax JQuery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="app" >
+    <button v-on:click="searchItems">Database IT</button>
+    <div id="added"></div>
+    <div id="failed"></div>
+    <div id="dne"></div>
+</div>
+<div class="footer">
+    <div>&copy; 2019 — <strong>Database IT</strong></div>
+</div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+
+<!-- Vue Libraries/Plugins -->
+<script src="https://unpkg.com/vue@2.6.8/dist/vue.js"></script>
+<script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+<!--<script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>--> <!-- for use with realtime database -->
+<script src="https://unpkg.com/vuefire@2.0.0-alpha.20/dist/vuefire.js"></script><!-- for use with firestore -->
+<script src="https://unpkg.com/vue-resource@1.5.1/dist/vue-resource.js"></script>
+
+<!-- Vue Application -->
+<script src="js/app-models.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
